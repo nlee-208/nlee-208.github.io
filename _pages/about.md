@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Master Student at the [xFACT Lab](https://xfact.net) of the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at KAIST, advised by [James Thorne](https://jamesthorne.com/). Before joining KAIST, I was a Research Intern at [Naver CLOVA](https://clova.ai/) where I conducted research on Recommender Systems. Before that, I received my Bachelor's degree in Statistics in Korea University.
+I am a Master Student at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) of KAIST, jointly advised by [James Thorne](https://jamesthorne.com/) and [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html). Before joining KAIST, I was a Research Intern at [Naver CLOVA](https://clova.ai/) where I conducted research on Recommender Systems. Before that, I received my Bachelor's degree in Statistics in Korea University.
 
 <br>
 
