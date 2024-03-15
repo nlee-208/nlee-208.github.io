@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper got accepted to EMNLP 2023 as a main paper!
+[Our paper](https://arxiv.org/abs/2305.13788) got accepted to EMNLP 2023 as a main paper!
