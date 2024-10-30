@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our new [preprint]() on cross-lingual transfer of reward models!
+Check out our new [preprint](https://arxiv.org/abs/2410.18027) on cross-lingual transfer of reward models!
