@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  MS Student @ KAIST AI
+# subtitle:  MS Student @ KAIST AI
 
 profile:
   align: right
@@ -18,13 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Master Student at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) of KAIST, jointly advised by [James Thorne](https://jamesthorne.com/) and [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html). Before joining KAIST, I was a Research Intern at [Naver CLOVA](https://clova.ai/) where I conducted research on Recommender Systems. Before that, I received my Bachelor's degree in Statistics in Korea University.
-
+I am an LLM Researcher of the Kanana Team of [Kakao](https://www.kakaocorp.com/page/), where I work on post-training LLMs. Previously, I graduated my Master's degree at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) of KAIST, jointly advised by [James Thorne](https://jamesthorne.com/) and [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html).
 <br>
 
 My current main research interest lies in (but not confined to):
 - Bettering human representation of LLMs
-- Uncertainty-aware systems for reliable and safe AI usage
+- Incuding test-time alignemnt and/or controllability of LLMs
 - Personalization & customization of LLMs
 
 Feel free to get in touch!
