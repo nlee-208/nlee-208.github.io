@@ -22,9 +22,8 @@ I am an LLM Researcher of the Kanana Team of [Kakao](https://www.kakaocorp.com/p
 <br>
 
 My current main research interest lies in (but not confined to):
-- Bettering human representation of LLMs
-- Incuding test-time alignemnt and/or controllability of LLMs
-- Personalization & customization of LLMs
+- Efficient post-training pipelines for LLM/LRMs
+- Bridging alignment and controllability for real-world use (meaningful reasoning, contextualized personalization, etc.)
 
 Feel free to get in touch!
 
