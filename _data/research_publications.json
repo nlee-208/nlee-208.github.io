@@ -1,0 +1,79 @@
+{
+  "kim2026immopd": {
+    "topics": [
+      "post-training",
+      "distillation"
+    ],
+    "featured_order": 0,
+    "question": "How can one student recover the capabilities of multiple teachers?",
+    "summary": "Multi-Teacher On-Policy Distillation trains a student on its own generated samples using feedback from specialized teachers. IM-MOPD starts with a uniform model merge, then progressively adds teacher task-vector updates for domains the student has not recovered well. Across five domains, it improves average capability recovery over the tested uniform-merge and supervised warm-up baselines.",
+    "takeaway": "Recovering specialized teacher capabilities through iterative merging during distillation.",
+    "image_alt": "Comparison of MOPD and IM-MOPD, showing iterative teacher task-vector additions during student distillation"
+  },
+  "kim2026persona": {
+    "topics": [
+      "personalization"
+    ],
+    "featured_order": 1,
+    "question": "Can a smaller model preserve a specific persona?",
+    "summary": "Persona-Pruner uses a persona description to identify a specialized subnetwork within a language model. In the reported experiments, it preserves role-playing quality better than the pruning baselines while retaining general capabilities.",
+    "takeaway": "Pruning language models while preserving their role-playing capabilities.",
+    "image_alt": "Persona-Pruner research figure"
+  },
+  "hong2026margin": {
+    "topics": [
+      "alignment",
+      "post-training"
+    ]
+  },
+  "gupta2025alphapo": {
+    "topics": [
+      "alignment",
+      "post-training"
+    ]
+  },
+  "hong2025robustness": {
+    "topics": [
+      "alignment",
+      "evaluation"
+    ]
+  },
+  "hong2025cross": {
+    "topics": [
+      "alignment",
+      "post-training"
+    ],
+    "featured_order": 2,
+    "question": "Can reward models transfer across languages?",
+    "summary": "The study finds that English-trained reward models can transfer effectively to other languages. It examines changes in model representations and shows how this transfer can support multilingual instruction following.",
+    "takeaway": "Transferring English reward models to support multilingual alignment.",
+    "image_alt": "Cross-lingual reward model research figure"
+  },
+  "kim2024biggenbenchprincipledbenchmark": {
+    "topics": [
+      "evaluation"
+    ]
+  },
+  "lee2024eval": {
+    "topics": [
+      "evaluation"
+    ]
+  },
+  "hong2024orpo": {
+    "topics": [
+      "alignment",
+      "post-training"
+    ],
+    "featured_order": 3,
+    "question": "Can fine-tuning and preference alignment share one training stage?",
+    "summary": "ORPO adds an odds-ratio preference objective to supervised fine-tuning. It favors preferred responses without a separate reference model or an additional alignment stage, with experiments across models from 125 million to 7 billion parameters.",
+    "takeaway": "Combining supervised fine-tuning and preference alignment without a reference model.",
+    "image_alt": "ORPO research figure"
+  },
+  "lee2023can": {
+    "topics": [
+      "evaluation",
+      "personalization"
+    ]
+  }
+}

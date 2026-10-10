@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Noah Lee — agentic language models, alignment, and multi-teacher on-policy distillation.">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Noah Lee — Research">
+  <meta property="og:description" content="Research on model distillation, agentic language models, and alignment.">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/social-preview.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Noah Lee — research on distillation, agentic systems, and alignment">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Noah Lee — Research">
+  <meta name="twitter:description" content="Research on model distillation, agentic language models, and alignment.">
+  <meta name="twitter:image" content="{{ '/assets/social-preview.png' | absolute_url }}">
+  <title>Noah Lee — Research</title>
+  <link rel="stylesheet" href="{{ '/assets/css/research/home.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <script src="{{ '/assets/js/research.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="wordmark" href="#main" aria-label="Noah Lee home">Noah Lee</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a><a href="#notes">Updates</a><a href="#about">About</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">◐</span></button>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <div class="hero-heading">
+          <p class="eyebrow">LLM researcher · Kakao Kanana</p>
+          <h1 id="intro-title">Noah Lee</h1>
+          </div>
+          <p class="intro">{{ page.intro | escape }}</p>
+          <div class="contact-links"><a href="mailto:03leen@gmail.com">Email <span>↗</span></a><a href="https://scholar.google.com/citations?user=8o7yxLAAAAAJ">Scholar <span>↗</span></a><a href="https://github.com/nlee-208">GitHub <span>↗</span></a></div>
+        </div>
+        <figure class="portrait"><div class="portrait-frame"><img src="{{ '/assets/img/Noah.jpg' | relative_url }}" alt="Portrait of Noah Lee" width="472" height="630"></div></figure>
+      </section>
+      <section class="research section" id="research" aria-labelledby="research-title">
+        <div class="section-heading"><div><h2 id="research-title">Selected publications</h2></div><div class="research-actions"><a class="subtle-link" href="#all-publications" id="browse-topics">Browse by topic</a><a class="subtle-link" href="#all-publications" id="view-all">All publications <span>↘</span></a></div></div>
+        {{ site.data.research_publications_html }}
+      </section>
+      <div class="lower-grid">
+        <section class="section updates" id="notes" aria-labelledby="updates-title"><h2 id="updates-title">Recent updates</h2><ol class="timeline">
+          {% assign recent_news = site.news | sort: 'date' | reverse %}
+          {% for item in recent_news limit:3 %}
+          <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div>{{ item.content | markdownify }}</div></li>
+          {% endfor %}
+        </ol></section>
+        <section class="section about" id="about" aria-labelledby="about-title"><h2 id="about-title">About me</h2><p>I received my master’s degree at KAIST AI, advised by <a href="https://jamesthorne.com/">James Thorne</a> and <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>.</p><p>Across my work on preferences, reward models, and distillation, I’m interested in how training signals shape model behavior—and how specialized capabilities can be combined.</p><a class="subtle-link" href="https://www.linkedin.com/in/nlee228/">Find me on LinkedIn ↗</a></section>
+      </div>
+      <section class="closing"><p>Interested in collaborating? Get in touch.</p><a href="mailto:03leen@gmail.com">Get in touch <span>↗</span></a></section>
+    </main>
+    <footer><span>Noah Lee</span><a href="#main">Back to top ↑</a></footer>
+  </div>
+  <dialog id="figure-dialog" aria-labelledby="figure-title">
+    <div class="figure-toolbar"><h2 id="figure-title">Research figure</h2><button type="button" id="close-figure" autofocus aria-label="Close figure">Close ×</button></div>
+    <figure><img id="figure-full" alt=""><figcaption id="figure-caption"></figcaption></figure>
+    <a id="figure-paper">Read the paper ↗</a>
+  </dialog>
+</body>
+</html>

@@ -1,34 +1,6 @@
 ---
-layout: about
-title: about
+layout: research
+title: Noah Lee
 permalink: /
-# subtitle:  MS Student @ KAIST AI
-
-profile:
-  align: right
-  image: Noah.jpg
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>85, Hongreung Hoegi-dong</p>
-  #   <p>Seoul, South Korea</p>
-
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+intro: I study efficient post-training and alignment for language models that reason, use tools, and adapt to people.
 ---
-
-I am an LLM Researcher of the Kanana Team of [Kakao](https://www.kakaocorp.com/page/), where I work on post-training LLMs. Previously, I graduated my Master's degree at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) of KAIST, jointly advised by [James Thorne](https://jamesthorne.com/) and [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html).
-<br>
-
-My current main research interest lies in (but not confined to):
-- Efficient post-training pipelines for LLM/LRMs
-- Bridging alignment and controllability for real-world use (meaningful reasoning, contextualized personalization, etc.)
-
-Feel free to get in touch!
-
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
