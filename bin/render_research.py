@@ -102,7 +102,7 @@ def featured(paper, note):
     <p class="takeaway">{escape(note['takeaway'])}</p>
     <p class="authors">{authors(paper['author'])}</p>
     <div class="paper-links"><a href="{url}">Paper ↗</a>{code}</div>
-    <details class="paper-summary"><summary>Quick summary<span class="sr-only">: {title}</span></summary>
+    <details class="paper-summary"><summary>TL;DR<span class="sr-only">: {title}</span></summary>
       <div><p><strong>{escape(note['question'])}</strong></p><p>{escape(note['summary'])}</p><a href="{url}">Read the abstract ↗</a></div>
     </details>
   </div>
